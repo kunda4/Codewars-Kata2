@@ -8,10 +8,6 @@ Same goes for all the other arrays/lists that you will get in the tests: you hav
 Simples!
 
  */
-const fixTheMeerkat = arr => arr.reverse()
-
-// new way woth indexes
-
-function fixTheMeerkat(arr) {
-    return [arr[2], arr[1], arr[0]]
+export function fixTheMeerkat(arr: string[]): string[] {
+    return arr.reverse()
   }
