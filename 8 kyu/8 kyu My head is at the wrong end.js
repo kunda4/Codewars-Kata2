@@ -10,3 +10,9 @@ Simples!
 
  */
 const fixTheMeerkat = arr => arr.reverse()
+
+// new way woth indexes
+
+function fixTheMeerkat(arr) {
+    return [arr[2], arr[1], arr[0]]
+  }
