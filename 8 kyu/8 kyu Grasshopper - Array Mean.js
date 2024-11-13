@@ -9,4 +9,4 @@ For an example list of 1, 3, 5, 7
 
 1. Add all of the numbers
  */
-const findAverage = (nums) => nums.reduce((acc, curr) => acc + curr) / nums.length
+const findAverage = nums => nums.reduce((acc, curr) => acc + curr) / nums.length
